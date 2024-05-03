@@ -1,4 +1,3 @@
-# Project
 ## Yishan Lin
 
 Resources: <br />
