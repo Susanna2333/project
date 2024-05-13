@@ -40,9 +40,9 @@ save week7, replace
 <</dd_do>>
 ```
 
+##Nonparametric
 ```
 <<dd_do:nooutput>>
-##Nonparametric
 sts graph, ///
     by(huq010) ///
 	fail ///
@@ -68,9 +68,9 @@ graph export nonpara.png, replace
 
 <<dd_graph>>
 
+##Semiparametric (Unadjusted model)
 ```
 <<dd_do:nooutput>>
-##Semiparametric (Unadjusted model)
 /* -- earlier code --*/
 stcox i.huq010, basesurv(s0)
 matrix define mat = r(table)
@@ -114,9 +114,9 @@ restore
 
 <<dd_graph>>
 
+##Semiparametric (Adjusted model)
 ```
 <<dd_do:nooutput>>
-##Semiparametric (Adjusted model)
 preserve
 hist ridageyr 
 graph export nonpara.png, replace 
