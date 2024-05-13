@@ -14,3 +14,5 @@ Resources: <br />
 
 Do file: <br />
 - https://ftp.cdc.gov/pub/HEALTH_STATISTICS/NCHS/datalinkage/linked_mortality/Stata_ReadInProgramAllSurveys.do
+
+click [here](dyndoc.html) to view nonparametric and semiparametric risk estimates from Stata
